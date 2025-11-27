@@ -8,17 +8,27 @@ Cada tipo de arquivo AP tem sua própria pasta:
 
 - **ap001/** - Manutenção Cadastral de Estabelecimento Comercial ✅
 - **ap002/** - Informações das Transações das Unidades de Recebíveis ✅
+- **ap003/** - Informação de Pós-contratadas ✅
 - **ap004/** - OPT-IN ✅
 - **ap005/** - Envio de Informações de Agendas ✅
+- **ap006/** - OPT-OUT ✅
 - **ap008/** - Envio de Efeitos de Contratos ✅
+- **ap010/** - Retorno de Informações Conciliada de Agenda ✅
+- **ap012/** - Retorno de Informações Conciliada de Contratos ✅
+- **ap023/** - Retorno de Informação Conciliada de OPT-IN ✅
 
 ## Status
 
 - ✅ **AP001** - Implementado e funcionando
 - ✅ **AP002** - Implementado e funcionando
+- ✅ **AP003** - Implementado e funcionando
 - ✅ **AP004** - Implementado e funcionando
 - ✅ **AP005** - Implementado e funcionando
+- ✅ **AP006** - Implementado e funcionando
 - ✅ **AP008** - Implementado e funcionando
+- ✅ **AP010** - Implementado e funcionando
+- ✅ **AP012** - Implementado e funcionando
+- ✅ **AP023** - Implementado e funcionando
 
 ## 🤝 Contribuindo
 
@@ -56,10 +66,34 @@ cd ap005
 python3 generate_ap005.py [quantidade_registros]
 ```
 
+**AP006:**
+```bash
+cd ap006
+python3 generate_ap006.py [quantidade_registros]
+```
+
 **AP008:**
 ```bash
 cd ap008
 python3 generate_ap008.py [quantidade_registros]
+```
+
+**AP010:**
+```bash
+cd ap010
+python3 generate_ap010.py [quantidade_registros]
+```
+
+**AP012:**
+```bash
+cd ap012
+python3 generate_ap012.py [quantidade_registros]
+```
+
+**AP023:**
+```bash
+cd ap023
+python3 generate_ap023.py [quantidade_registros]
 ```
 
 ## Estrutura de Arquivos

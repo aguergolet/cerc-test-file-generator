@@ -1,0 +1,7 @@
+{
+  "cnpj_credenciadora": "00000000000001",
+  "arquivo_cnpjs_ec": "cnpjs_estabelecimentos.csv",
+  "quantidade_registros": 10,
+  "arranjos_pagamento": ["VCC", "MCC", "BCC", "ACC"]
+}
+

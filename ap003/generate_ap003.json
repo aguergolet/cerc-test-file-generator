@@ -1,0 +1,10 @@
+{
+  "cnpj_credenciadora": "00000000000001",
+  "arquivo_cnpjs_ec": "cnpjs_estabelecimentos.csv",
+  "arquivo_contas": "contas_bancarias.csv",
+  "quantidade_registros": 10,
+  "dias_futuros_liquidacao": 7,
+  "valor_maximo_antecipacao": 100000.00,
+  "arranjos_pagamento": ["VCC", "MCC", "BCC", "ACC"]
+}
+
