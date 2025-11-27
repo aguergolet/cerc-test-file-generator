@@ -14,8 +14,9 @@ Cada tipo de arquivo AP tem sua própria pasta:
 
 ## Status
 
+- ✅ **AP002** - Implementado e funcionando
 - ✅ **AP008** - Implementado e funcionando
-- 🚧 **AP001, AP002, AP004, AP005** - Em desenvolvimento
+- 🚧 **AP001, AP004, AP005** - Em desenvolvimento
 
 ## 🤝 Contribuindo
 
@@ -27,8 +28,15 @@ Este projeto aceita contribuições! Por favor, leia o [Guia de Contribuição](
 
 Cada pasta contém seu próprio gerador. Consulte o README específico de cada pasta para mais detalhes.
 
-### Exemplo - AP008
+### Exemplos
 
+**AP002:**
+```bash
+cd ap002
+python3 generate_ap002.py [quantidade_registros]
+```
+
+**AP008:**
 ```bash
 cd ap008
 python3 generate_ap008.py [quantidade_registros]
