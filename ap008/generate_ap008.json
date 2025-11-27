@@ -1,7 +1,7 @@
 {
   "cnpj_credenciadora": "36129585000191",
-  "arquivo_cnpjs_ec": "cnpjs_estabelecimentos.csv",
-  "arquivo_contas": "contas_bancarias.csv",
+  "arquivo_cnpjs_ec": "cnpjs_estabelecimentos",
+  "arquivo_contas": "contas_bancarias",
   "quantidade_registros": 10,
   "prioridade_maxima": 5,
   "dias_futuros_liquidacao": 7,
