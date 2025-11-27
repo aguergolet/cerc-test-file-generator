@@ -6,17 +6,19 @@ Este projeto contém ferramentas para gerar arquivos da CERC (Centralizadora de 
 
 Cada tipo de arquivo AP tem sua própria pasta:
 
-- **ap001/** - Manutenção Cadastral de Estabelecimento Comercial 🚧
-- **ap002/** - Informações das Transações das Unidades de Recebíveis 🚧
-- **ap004/** - OPT-IN 🚧
-- **ap005/** - Envio de Informações de Agendas 🚧
+- **ap001/** - Manutenção Cadastral de Estabelecimento Comercial ✅
+- **ap002/** - Informações das Transações das Unidades de Recebíveis ✅
+- **ap004/** - OPT-IN ✅
+- **ap005/** - Envio de Informações de Agendas ✅
 - **ap008/** - Envio de Efeitos de Contratos ✅
 
 ## Status
 
+- ✅ **AP001** - Implementado e funcionando
 - ✅ **AP002** - Implementado e funcionando
+- ✅ **AP004** - Implementado e funcionando
+- ✅ **AP005** - Implementado e funcionando
 - ✅ **AP008** - Implementado e funcionando
-- 🚧 **AP001, AP004, AP005** - Em desenvolvimento
 
 ## 🤝 Contribuindo
 
@@ -30,10 +32,28 @@ Cada pasta contém seu próprio gerador. Consulte o README específico de cada p
 
 ### Exemplos
 
+**AP001:**
+```bash
+cd ap001
+python3 generate_ap001.py [quantidade_registros]
+```
+
 **AP002:**
 ```bash
 cd ap002
 python3 generate_ap002.py [quantidade_registros]
+```
+
+**AP004:**
+```bash
+cd ap004
+python3 generate_ap004.py [quantidade_registros]
+```
+
+**AP005:**
+```bash
+cd ap005
+python3 generate_ap005.py [quantidade_registros]
 ```
 
 **AP008:**

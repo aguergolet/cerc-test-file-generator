@@ -1,5 +1,5 @@
 {
-  "cnpj_credenciadora": "36129585000191",
+  "cnpj_credenciadora": "00000000000001",
   "arquivo_cnpjs_ec": "cnpjs_estabelecimentos",
   "arquivo_contas": "contas_bancarias",
   "quantidade_registros": 10,
@@ -7,7 +7,7 @@
   "dias_futuros_liquidacao": 7,
   "valor_maximo_pagamento": 100000.00,
   "arranjos_pagamento": ["VCC", "MCC", "BCC", "ACC"],
-  "entidade_registradora": "12345678000190",
+  "entidade_registradora": "00000000000004",
   "tipo_conta_padrao": "CC",
   "compe_padrao": "001",
   "ispb_padrao": "12345678"

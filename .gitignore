@@ -1,5 +1,5 @@
 # Arquivos CSV gerados
-*.csv
+*_output/*
 
 # Pastas de saída dos arquivos gerados
 */ap*_output/

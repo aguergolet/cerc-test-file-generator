@@ -1,6 +1,6 @@
 {
   "cnpj_credenciadora": "00000000000001",
-  "cnpj_participante": "00000000000002",
+  "cnpj_entidade_registradora": "00000000000004",
   "arquivo_cnpjs_ec": "cnpjs_estabelecimentos.csv",
   "arquivo_contas": "contas_bancarias.csv",
   "quantidade_registros": 10,

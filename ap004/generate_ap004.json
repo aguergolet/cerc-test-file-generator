@@ -1,11 +1,11 @@
 {
   "cnpj_credenciadora": "00000000000001",
-  "cnpj_participante": "00000000000002",
+  "cnpj_solicitante": "00000000000002",
+  "cnpj_financiador": "00000000000003",
   "arquivo_cnpjs_ec": "cnpjs_estabelecimentos.csv",
-  "arquivo_contas": "contas_bancarias.csv",
   "quantidade_registros": 10,
-  "dias_futuros_liquidacao": 7,
-  "valor_maximo_transacao": 100000.00,
+  "dias_futuros_inicio": 0,
+  "dias_futuros_fim": 365,
   "arranjos_pagamento": ["VCC", "MCC", "BCC", "ACC"],
   "carteira_padrao": "Carteira1"
 }
